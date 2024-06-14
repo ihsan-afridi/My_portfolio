@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(221, 224, 226, 0.5);
+  }
+  
+  h1, h2 {
+    color: rgba(20,98,10,0.822);
+  }
+  
+  .nav-link {
+    color: #006400;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #00a000;
+  }
+  
+  hr {
+    border: 1px solid #006400;
+  }
+
+.container {
+    max-width: 900px;
+    margin-top: 50px; /* Added margin for better spacing */
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #28a745; /* Changed to green (#28a745) for card titles */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Added margin-bottom for spacing */
+}
+
+.card-text {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.img-fluid {
+    max-width: 100px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">HOME PAGE</h1>
+        <div class="container mt-5">
+          <h2 id="dynamic-title" class="text-center">Hi, I'm Ihsan Ullah, a Web Developer.</h2>
+      </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="Contect.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="skill.html">Skills</a></li>
+        </ul>
+
+        <br>
+            <img id="speaker" src="pictures/audio.png" alt="speaker icon" height="30" width="30">
+        
+        <script>
+            let audio = new Audio("audio.mp4");
+
+            function playAudio() {
+                audio.play();
+            }
+
+            document.getElementById("speaker").addEventListener("click", playAudio);
+        </script>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Meet Ihsan Ullah</h1>
+  <img src="pictures/WhatsApp Image 2024-06-14 at 11.16.29 AM.jpeg" class="rounded-circle mb-5" width="200" alt="Profile Picture">
+  <p class="bio-text">Greetings! I'm Ihsan Ullah, a passionate Web Developer based in Peshawar, Pakistan. My journey in the realm of software engineering began with a deep curiosity for crafting digital experiences that blend creativity with functionality.</p>
+  
+  <p class="bio-text">Currently pursuing my BS in Software Engineering at Islamia College University Peshawar, I thrive on tackling challenges and embracing new technologies to build robust web solutions. My expertise spans HTML, CSS, JavaScript, and more, enabling me to bring ideas to life effectively.</p>
+  
+  <p class="bio-text">Beyond coding, I'm an avid learner, a nature enthusiast, and a strong advocate for continuous personal and professional growth. Feel free to connect with me to discuss tech, collaborate on projects, or simply share ideas over a cup of coffee!</p>
+</div>
+        <hr>
+        <h2>Education:</h2>
+        <ul>
+            <li><strong>Matric:</strong> 2016 - 2018. Iqbal Vision School & College, Bara Khyber Agency</li>
+            <li><strong>Fsc:</strong> 2018 - 2020. Global Degree College, Peshawar</li>
+            <li><strong>BS Software Engineering:</strong> 2020 - 2024. Islamia College University Peshawar, KPK</li>
+        </ul>
+        <hr>
+        <div class="d-flex align-items-center">
+            <img src="pictures/lalala.png" width="20">
+            <a class="ml-2" href="mailto:ihsanafridi576284@gmail.com">Gmail</a>
+        </div>
+        <div class="d-flex align-items-center mt-2">
+            <img src="pictures/icons8-linkedin-24.png" width="20">
+            <a class="ml-2" href="https://www.linkedin.com/in/ihsan-afridi-4860982b1/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="d-flex align-items-center mt-2">
+            <img src="pictures/git.png" width="25">
+            <a class="ml-2" href="https://github.com/mrafeidi" target="_blank">GitHub</a>
+        </div>
+        <hr>
+
+        <h2>Experience</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Skills</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ihsan Afridi</td>
+                    <td>Full stack</td>
+                    <td>Tattoo Company</td>
+                </tr>
+                <tr>
+                    <td>Usman</td>
+                    <td>Python</td>
+                    <td>Canada Company</td>
+                </tr>
+                <tr>
+                    <td>Zakir</td>
+                    <td>Java, C++</td>
+                    <td>Marco Company</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>This is my location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.834764821114!2d71.4412765756582!3d33.94479893585935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91b3151fb1ce7%3A0xf73ed28ef3e06351!2sIqbal%20Vision%20school%20and%20college!5e1!3m2!1sen!2s!4v1710426921011!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

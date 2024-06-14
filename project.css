@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(221, 224, 226, 0.5);
+}
+
+h1, h2 {
+  color: rgba(20,98,10,0.822);
+}
+
+.nav-link {
+  color: #006400;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #00a000;
+}
+
+hr {
+  border: 1px solid #006400;
+  width: 80%;
+  margin: 40px auto;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+img {
+  margin: 20px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center img {
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}

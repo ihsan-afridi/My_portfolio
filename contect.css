@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(221, 224, 226, 0.5);
+}
+
+h1, h2 {
+    color: rgba(20,98,10,0.822);
+}
+hr {
+    border: 1px solid #006400;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: rgb(7, 109, 23);
+    border-color: rgb(25, 82, 22);
+}
+
+.btn-primary:hover {
+    background-color: rgb(16, 96, 39);
+    border-color: rgb(16, 96, 11);
+}
+.nav-link {
+    color: #006400;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #00a000;
+  }
